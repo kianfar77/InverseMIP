@@ -1,5 +1,7 @@
-
-#  Project Name :  Inverse Optimization Algorithms
+# A regularized cutting plane approach for inverse MIP
+This repository contains the code and instances used in the paper
+"A regularized cutting plane algorithm for inverse mixed integer programming Problem" 
+by Vishnu Vijayaraghavan, Kiavash Kianfar, Andrew Schaefer, 2019
 
 ## Project Description : Implementation of Inverse Mixed Integer Algorithms: 
     

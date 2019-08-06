@@ -1,4 +1,4 @@
-# A regularized cutting plane approach for inverse MIP
+# A regularized cutting plane algorithm for inverse mixed integer programming problem
 This repository contains the code and instances associated with the following paper
 
 "A regularized cutting plane algorithm for inverse mixed integer programming Problem" 

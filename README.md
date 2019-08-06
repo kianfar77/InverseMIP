@@ -7,35 +7,33 @@ by Vishnu Vijayaraghavan, Kiavash Kianfar, Andrew Schaefer, submitted, 2019
 
 ## Implemented Algorithms 
     
-      1. Cutting Plane Algorithm presented in "Wang, L., Cutting plane algorithms for the inverse mixed integer linear programming problem, Operations Research Letters 37: 114-116, 2009  
+1. Cutting Plane Algorithm presented in "Wang, L., Cutting plane algorithms for the inverse mixed integer linear programming problem, Operations Research Letters 37: 114-116, 2009  
       
-      2. Regularized Cutting Plane Algorithm developed in "Vijayaraghavan, V., Kianfar, K., Schaefer, A., A regularized cutting plane algorithm for inverse mixed integer programming Problem"  submitted, 2019
+2. Regularized Cutting Plane Algorithm developed in "Vijayaraghavan, V., Kianfar, K., Schaefer, A., A regularized cutting plane algorithm for inverse mixed integer programming Problem"  submitted, 2019
 
 ## Code
 
-    Implementation in C++ with Optimization Problems solved using ILOG CPLEX 12.9 callable library
-    on Windows Platform
+Implementation in C++ with Optimization Problems solved using ILOG CPLEX 12.9 callable library on Windows Platform
 
-    Files : 
+Files : 
        
-       1. ProbMIP.cpp : Sets up the MIP/ Regularized MIP problems
+1. ProbMIP.cpp : Sets up the MIP/ Regularized MIP problems
                       
-                        Implements functions to randomly generate Inverse MIP instances based on the Seed obtained
+  Implements functions to randomly generate Inverse MIP instances based on the Seed obtained
                         
-                        Includes functions to solve the MIP instances and obtain the solutions
+  Includes functions to solve the MIP instances and obtain the solutions
 
-       2. GenLP.cpp   : Sets up the Cost Generator LP problem 
+2. GenLP.cpp   : Sets up the Cost Generator LP problem 
                          
-                        Includes functions to add new cuts to the LP problem instance
+   Includes functions to add new cuts to the LP problem instance
 
-                        Also includes functions to solve the LP instances and obtain the solutions  
+   Also includes functions to solve the LP instances and obtain the solutions  
 
-       3. Main.cpp    : Includes the main() function that implements the algorithms
+3. Main.cpp    : Includes the main() function that implements the algorithms
 
-                        Takes the problem name as a command line argument while execution
-
-                        The variable seed needs to be set to a positive integer value for the algorithm to generate random instances
-                        of the Inverse MIP problem
+   Takes the problem name as a command line argument while execution
+ 
+ The variable seed needs to be set to a positive integer value for the algorithm to generate random instances of the Inverse MIP problem
  
 ## Instructions to Execute the Code
 

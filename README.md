@@ -54,7 +54,9 @@ The variable seed needs to be set to a positive integer value for the algorithm 
 
 5. To execute the Regularized Cutting Plane Algorithm include the directive #define SOLVE_MIPREG before the main() function in Main.cpp
 
+## Instances
 
+Instances.zip contains MIP instances form MIPLIB 2003 and MIPLIB2010 which are used in the paper to generate random inverse MIP instances. 
 
 
 

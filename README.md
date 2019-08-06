@@ -1,20 +1,22 @@
 # A regularized cutting plane approach for inverse MIP
-This repository contains the code and instances used in the paper
+This repository contains the code and instances associated with the following paper
+
 "A regularized cutting plane algorithm for inverse mixed integer programming Problem" 
-by Vishnu Vijayaraghavan, Kiavash Kianfar, Andrew Schaefer, 2019
 
-## Project Description : Implementation of Inverse Mixed Integer Algorithms: 
+by Vishnu Vijayaraghavan, Kiavash Kianfar, Andrew Schaefer, submitted, 2019
+
+## Implemented Algorithms 
     
-      1. Cutting Plane Algorithm 
+      1. Cutting Plane Algorithm presented in "Wang, L., Cutting plane algorithms for the inverse mixed integer linear programming problem, Operations Research Letters 37: 114-116, 2009  
       
-      2. Regularized Cutting Plane Algorithm
+      2. Regularized Cutting Plane Algorithm developed in "Vijayaraghavan, V., Kianfar, K., Schaefer, A., A regularized cutting plane algorithm for inverse mixed integer programming Problem"  submitted, 2019
 
-## Implementation of the Algorithm
+## Code
 
     Implementation in C++ with Optimization Problems solved using ILOG CPLEX 12.9 callable library
     on Windows Platform
 
-    Classes Implemented : 
+    Files : 
        
        1. ProbMIP.cpp : Sets up the MIP/ Regularized MIP problems
                       
@@ -39,7 +41,7 @@ by Vishnu Vijayaraghavan, Kiavash Kianfar, Andrew Schaefer, 2019
 
 1. Include the files Main.cpp, ProbMIP.cpp, ProbMIP.h, GenLP.cpp, and GenLp.h
 
-2. Pass the MIP problem to be used as an command line argument while executing the code
+2. Pass the MIP problem to be used as a command line argument when calling the executable
 
 3. The variable seed in Main.cpp to be set to a positive integer to generate a random instance,
    a random instances being a combination of randomly generated objective coefficient and required solution for the Inverse MIP problem

@@ -17,23 +17,29 @@ Implementation in C++ with Optimization Problems solved using ILOG CPLEX 12.9 ca
 
 Files : 
        
-1. ProbMIP.cpp : Sets up the MIP/ Regularized MIP problems
+1. ProbMIP.cpp : 
+
+    Sets up the MIP/ Regularized MIP problems
                       
-  Implements functions to randomly generate Inverse MIP instances based on the Seed obtained
+    Implements functions to randomly generate Inverse MIP instances based on the Seed obtained
                         
-  Includes functions to solve the MIP instances and obtain the solutions
+    Includes functions to solve the MIP instances and obtain the solutions
 
-2. GenLP.cpp   : Sets up the Cost Generator LP problem 
+2. GenLP.cpp:
+
+    Sets up the Cost Generator LP problem 
                          
-   Includes functions to add new cuts to the LP problem instance
+    Includes functions to add new cuts to the LP problem instance
 
-   Also includes functions to solve the LP instances and obtain the solutions  
+    Also includes functions to solve the LP instances and obtain the solutions  
 
-3. Main.cpp    : Includes the main() function that implements the algorithms
+3. Main.cpp: 
 
-   Takes the problem name as a command line argument while execution
+    Includes the main() function that implements the algorithms
+
+    Takes the problem name as a command line argument while execution
  
- The variable seed needs to be set to a positive integer value for the algorithm to generate random instances of the Inverse MIP problem
+The variable seed needs to be set to a positive integer value for the algorithm to generate random instances of the Inverse MIP problem
  
 ## Instructions to Execute the Code
 
